@@ -25,7 +25,7 @@ stages{
 
         stage ('Deployments'){
             steps {
-                sh 'cp /webapp/target/*.war /opt/ /opt/tomcat/latest/webapps'
+                sh 'cp /webapp/target/*.war /opt/tomcat/latest/webapps'
             }
         }
     }
